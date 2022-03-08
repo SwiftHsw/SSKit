@@ -20,6 +20,6 @@ target 'SSKitProject' do
   pod 'Kingfisher', '6.2.1'
   
   # 动效加载
-  pod 'lottie-ios'
+  pod 'lottie-ios' 
   
 end
