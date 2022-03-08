@@ -163,74 +163,42 @@
 		6414457627D6F50A00E0D31B /* SSKit */ = {
 			isa = PBXGroup;
 			children = (
-				641445C027D706C400E0D31B /* Base */,
-				641445B327D7003200E0D31B /* MSRefresh */,
-				641445AE27D6FC0D00E0D31B /* Util */,
-				6414458127D6FABD00E0D31B /* Extension */,
-				6414457D27D6F7F400E0D31B /* SMacro.swift */,
-				641445B127D6FFFF00E0D31B /* Toast.swift */,
-			);
-			path = SSKit;
-			sourceTree = "<group>";
-		};
-		6414458127D6FABD00E0D31B /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				6414458227D6FABD00E0D31B /* Date+Extend.swift */,
-				6414458327D6FABD00E0D31B /* NSAttributedString+Extend.swift */,
-				6414458427D6FABD00E0D31B /* NSLayoutConstraint+Extend.swift */,
-				6414458527D6FABD00E0D31B /* String+Extend.swift */,
-				6414458627D6FABD00E0D31B /* UIBarButtonItem+Extend.swift */,
-				6414458727D6FABD00E0D31B /* UIColor+Extend.swift */,
-				6414458827D6FABD00E0D31B /* UIView+Extend.swift */,
-				6414458927D6FABD00E0D31B /* NSDecimalNumber+Extension.swift */,
-				6414458A27D6FABD00E0D31B /* UIDevice+Extend.swift */,
-				6414458B27D6FABD00E0D31B /* UILabel+Extend.swift */,
-				6414458C27D6FABD00E0D31B /* UIScrollView+Extend.swift */,
-				6414458D27D6FABD00E0D31B /* UITableViewCell+Extend.swift */,
-				6414458E27D6FABD00E0D31B /* UIImage+Extend.swift */,
-				6414458F27D6FABD00E0D31B /* UITableView+Extend.swift */,
-				6414459027D6FABD00E0D31B /* UIImageView+Extend.swift */,
-				6414459127D6FABD00E0D31B /* UITextField+Extend.swift */,
-				6414459227D6FABD00E0D31B /* NSObject+Extend.swift */,
-				6414459327D6FABD00E0D31B /* Dictionary+Extend.swift */,
 				6414459427D6FABD00E0D31B /* Cell+QS.swift */,
-				6414459527D6FABD00E0D31B /* UIFont+Extend.swift */,
-				6414459627D6FABD00E0D31B /* UIButton+Extend.swift */,
-				6414459727D6FABD00E0D31B /* UIViewController+Extend.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		641445AE27D6FC0D00E0D31B /* Util */ = {
-			isa = PBXGroup;
-			children = (
+				6414458227D6FABD00E0D31B /* Date+Extend.swift */,
+				6414459327D6FABD00E0D31B /* Dictionary+Extend.swift */,
+				6414458327D6FABD00E0D31B /* NSAttributedString+Extend.swift */,
+				6414458927D6FABD00E0D31B /* NSDecimalNumber+Extension.swift */,
+				6414458427D6FABD00E0D31B /* NSLayoutConstraint+Extend.swift */,
+				6414459227D6FABD00E0D31B /* NSObject+Extend.swift */,
+				6414457727D6F5DA00E0D31B /* SBaseModel.swift */,
+				6414457B27D6F65300E0D31B /* SBaseNavViewController.swift */,
+				6414457927D6F62F00E0D31B /* SBaseViewController.swift */,
 				641445AF27D6FC7E00E0D31B /* SCommonUtil.swift */,
-				641445BA27D703FD00E0D31B /* SFileManagerUtil.swift */,
-				641445BC27D705C100E0D31B /* SWidgetUtil.swift */,
-				641445BE27D7063300E0D31B /* SLocationUtil.swift */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		641445B327D7003200E0D31B /* MSRefresh */ = {
-			isa = PBXGroup;
-			children = (
 				641445B527D7003C00E0D31B /* SCustomGifRefreshHeader.swift */,
 				641445B427D7003C00E0D31B /* SCustomRefreshHeader.swift */,
-			);
-			path = MSRefresh;
-			sourceTree = "<group>";
-		};
-		641445C027D706C400E0D31B /* Base */ = {
-			isa = PBXGroup;
-			children = (
+				641445BA27D703FD00E0D31B /* SFileManagerUtil.swift */,
+				641445BE27D7063300E0D31B /* SLocationUtil.swift */,
+				6414457D27D6F7F400E0D31B /* SMacro.swift */,
 				6414457F27D6F9E900E0D31B /* SNoDataView.swift */,
-				6414457727D6F5DA00E0D31B /* SBaseModel.swift */,
-				6414457927D6F62F00E0D31B /* SBaseViewController.swift */,
-				6414457B27D6F65300E0D31B /* SBaseNavViewController.swift */,
+				6414458527D6FABD00E0D31B /* String+Extend.swift */,
+				641445BC27D705C100E0D31B /* SWidgetUtil.swift */,
+				641445B127D6FFFF00E0D31B /* Toast.swift */,
+				6414458627D6FABD00E0D31B /* UIBarButtonItem+Extend.swift */,
+				6414459627D6FABD00E0D31B /* UIButton+Extend.swift */,
+				6414458727D6FABD00E0D31B /* UIColor+Extend.swift */,
+				6414458A27D6FABD00E0D31B /* UIDevice+Extend.swift */,
+				6414459527D6FABD00E0D31B /* UIFont+Extend.swift */,
+				6414458E27D6FABD00E0D31B /* UIImage+Extend.swift */,
+				6414459027D6FABD00E0D31B /* UIImageView+Extend.swift */,
+				6414458B27D6FABD00E0D31B /* UILabel+Extend.swift */,
+				6414458C27D6FABD00E0D31B /* UIScrollView+Extend.swift */,
+				6414458F27D6FABD00E0D31B /* UITableView+Extend.swift */,
+				6414458D27D6FABD00E0D31B /* UITableViewCell+Extend.swift */,
+				6414459127D6FABD00E0D31B /* UITextField+Extend.swift */,
+				6414458827D6FABD00E0D31B /* UIView+Extend.swift */,
+				6414459727D6FABD00E0D31B /* UIViewController+Extend.swift */,
 			);
-			path = Base;
+			path = SSKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

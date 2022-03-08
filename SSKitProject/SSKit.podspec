@@ -13,7 +13,6 @@ s.dependency 'KakaJSON'
 s.dependency 'MJRefresh'
 s.dependency 'SnapKit'
 s.dependency 'lottie-ios'
-
-s.source_files  = 'SSKitProject/SSKitProject/SSKit/.{swift}','SSKitProject/SSKitProject/SSKit/Base/.{swift}'  ,'SSKitProject/SSKitProject/SSKit/Extension/.{swift}'  ,'SSKitProject/SSKitProject/SSKit/MSRefresh/.{swift}' ,'SSKitProject/SSKitProject/SSKit/Util/.{swift}' 
  
+s.source_files  = 'SSKit/*.{swift}'
 end
