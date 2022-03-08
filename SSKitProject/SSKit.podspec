@@ -9,10 +9,14 @@ s.source = { :git => "https://github.com/SwiftHsw/SSKit.git", :tag => s.version 
 s.ios.deployment_target = "10.0" 
 s.frameworks = "Foundation", "UIKit","AVFoundation" 
   
+
+ 
+s.source_files  = 'Classes/*.{swift}'
+ 
 s.dependency 'KakaJSON'
 s.dependency 'MJRefresh'
 s.dependency 'SnapKit'
 s.dependency 'lottie-ios'
- 
-s.source_files  = 'SSKit/*.{swift}'
+s.swift_version = '5.0'
+
 end
