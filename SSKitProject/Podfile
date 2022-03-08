@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '12.0'
+
+target 'SSKitProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for SSKitProject
+
+ # 模型转换框架
+  pod 'KakaJSON', '1.1.2'
+
+# 下拉刷新
+  pod 'MJRefresh', '3.5.0'
+
+  # 约束框架
+  pod 'SnapKit', '5.0.1'
+  
+  # 图片缓存框架
+  pod 'Kingfisher', '6.2.1'
+  
+  # 动效加载
+  pod 'lottie-ios'
+  
+end

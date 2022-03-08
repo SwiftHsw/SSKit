@@ -1,0 +1,6 @@
+framework module Pods_SSKitProject {
+  umbrella header "Pods-SSKitProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
